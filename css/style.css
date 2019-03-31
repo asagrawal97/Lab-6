@@ -28,19 +28,25 @@
 #main-navbar{
   background-color: blue;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  position: relative;
 }
 
 #navbar-container{
   position: relative;
-  width: 100%;
+  float: left;
   left: 50%;
   display: block;
 }
 
 #navbar-container ul{
+  position: relative;
+  float: left;
+  display: block;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  right: 50%;
 }
 
 #navbar-container ul li{
@@ -55,4 +61,5 @@
 
 #onpage{
   text-decoration: underline overflow;
+  color: #fff;
 }
